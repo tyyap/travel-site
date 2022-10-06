@@ -1,6 +1,6 @@
 import Axios from 'axios';
 
-class CLientArea {
+class ClientArea {
   constructor() {
     this.injectHTML();
     this.form = document.querySelector(".client-area__form");
@@ -51,4 +51,4 @@ class CLientArea {
   }
 }
 
-export default CLientArea
+export default ClientArea
